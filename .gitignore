@@ -1,0 +1,53 @@
+# --- Dependencies ---
+node_modules/
+.pnp
+.pnp.js
+
+# --- Build Outputs ---
+dist/
+dist-ssr/
+*.local
+build/
+
+# --- Environment & Secret Keys ---
+# Never upload your actual .env files to GitHub
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+firebase-debug.log*
+.firebase/
+
+# --- Lock Files ---
+# Since you asked to exclude these to keep the repo clean
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+shrinkwrap.yaml
+package.json
+
+# --- Logs ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Editor / OS Specific ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Testing ---
+/coverage
+/.nyc_output
+
+# --- Misc ---
+.vercel
+.netlify
